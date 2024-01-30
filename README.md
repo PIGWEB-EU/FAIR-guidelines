@@ -48,7 +48,7 @@ sharing](#fair-principles-and-fair-data-sharing)
 
 [3.3.4 Making Data Interoperable](#making-data-interoperable)
 
-[3.3.5 Making Data Re-usable](#making-data-re-usable)
+[3.3.5 Making Data Re-usable](#making-data-reusable)
 
 [3.4 Some myths and misunderstandings around
 FAIR](#some-myths-and-misunderstandings-around-fair)
@@ -86,7 +86,7 @@ standardization](#data-and-metadata-standardization)
 
 [4.3.3 Short insight into the ABCD standard (“Access to Biological
 Collections
-Data”)](#short-insight-into-the-abcd-standard-access-to-biological-collections-data)
+Data”)](#short-insight-into-the-abcd-standard-access-to-biological-collection-data)
 
 [4.4 Useful links on meta-/data and
 standardization](#useful-links-on-meta-data-and-standardization)
@@ -171,7 +171,7 @@ data](#core-elements-for-storing-experimental-data)
 
 Abbreviations
 
-ABCD = Access to Biological Collections Data Schema
+ABCD = Access to Biological Collection Data
 
 AHOL = Animal Health Ontology for Livestock
 
@@ -191,7 +191,7 @@ DCC = Digital Curation Centre
 
 EOL = Environment Ontology for Livestock
 
-FAIR = Findable, Accessible, Interoperable and Re-usable
+FAIR = Findable, Accessible, Interoperable and Reusable
 
 FBN = Research Institute for Farm Animal Biology
 
@@ -226,31 +226,30 @@ pig research. Consequently, the role of data and “taking care of data”
 is becoming increasingly important, as it has become an indispensable
 asset. The amounts of available data are growing exponentially, and to
 make that data most valuable for the research community, it is key to
-ensure that relevant data is available, can be found, and be (re)used.
+ensure that relevant data is available, can be found, and be reused.
 This is also becoming an important factor in research, as many funders
 emphasise the importance of high-quality data and data management, and
-making data re-usable for the wider community. To ensure the
-re-usability of the data, they are often checked against the FAIR
-(Findable, Accessible, Interoperable and Re-usable) criteria (see
-chapter 3).
+making data reusable for the wider community. To ensure the reusability
+of the data, they are often checked against the FAIR (Findable,
+Accessible, Interoperable and Reusable) criteria (see chapter 3).
 
 The PIGWEB project has performed surveys to explore the current
 landscape of pig research when it comes to data and data management.
 
-Some relevant outcomes of the landscape survey[^1] in pig research were:
+Some relevant outcomes of the landscape survey in pig research were:
 
 - Collaboration is key to pig researchers’ work.
 
 - Many researchers are involved in tasks related to data processing.
 
 - In general, researchers are relatively comfortable with sharing data
-  and data being re-used. They are mostly positive about data sharing
-  and see the benefits of data re-use.
+  and data being reused. They are mostly positive about data sharing and
+  see the benefits of data reuse.
 
-- Some researchers never re-use data, and most of them only re-use their
+- Some researchers never reuse data, and most of them only reuse their
   own data.
 
-- Successful data re-use is achieved in about half of the attempts.
+- Successful data reuse is achieved in about half of the attempts.
 
 - Researchers are not very familiar with the FAIR principles and FAIR
   policies and think they generally do not deliver FAIR data. They feel
@@ -263,22 +262,22 @@ Some relevant outcomes of the landscape survey[^1] in pig research were:
 - Researchers feel they get too little credit for data, where citation
   and co-authorship would be good incentives.
 
-This reflects a couple of aspects around (FAIR) data sharing and re-use.
-First, researchers seem to see the value of sharing and re-using data
-but are practically hindered by a lack of knowledge and resources.
-Secondly, the incentives to share data seem to be insufficient. These
-might be the main causes of the currently low data sharing and re-use
-adoption. At the same time, there might be some misunderstanding
-regarding the current opportunities and incentives.
+This reflects a couple of aspects around (FAIR) data sharing and reuse.
+First, researchers seem to see the value of sharing and reusing data but
+are practically hindered by a lack of knowledge and resources. Secondly,
+the incentives to share data seem to be insufficient. These might be the
+main causes of the currently low data sharing and reuse adoption. At the
+same time, there might be some misunderstanding regarding the current
+opportunities and incentives.
 
 The FAIR data guidelines for pig research in this Deliverable introduce
 the FAIR principles and the requirements for delivering FAIR data, and
 the various aspects regarding data management and curation that are
-relevant for efficient data sharing and re-use. The objective is to
+relevant for efficient data sharing and reuse. The objective is to
 provide knowledge and introduce good practices and tools that can
 support the adoption of FAIR data practices by the broader community’s
 adoption of FAIR data practices. Moreover, it attempts to lower some of
-the barriers to data sharing and re-use by discussing some observed
+the barriers to data sharing and reuse by discussing some observed
 misunderstandings and interpretations and clarifying some often less
 well-known opportunities and incentives.
 
@@ -286,15 +285,15 @@ This Deliverable starts with an introduction to Open Science and the
 FAIR principles, explaining the motivation behind the FAIR data movement
 and how it relates to the broader process of working with data. The
 various steps of data curation, the handling of data, from data
-collection to data publication and re-use, are presented. Some key
+collection to data publication and reuse, are presented. Some key
 aspects in this process are discussed in more detail, specifically how
 data can be harmonized using common standards, formats, semantics etc.,
-and how data can (should) be published so they can be easily re-used. A
+and how data can (should) be published so they can be easily reused. A
 separate section focuses on data management plans (see chapter 8). A
 data management plan describing how data can be handled in a project,
 which is a mandatory deliverable for more and more research projects. In
-the various chapters, several user cases from the pig research domain
-are used to illustrate how FAIR data and data management aspects can be
+the various chapters, several use cases from the pig research domain are
+used to illustrate how FAIR data and data management aspects can be
 applied practically in research.
 
 # Open Science
@@ -302,9 +301,9 @@ applied practically in research.
 Open Science is a fundamental concept on how to perform research that is
 increasingly adopted by the global scientific community. It is closely
 linked to FAIR, where the FAIR principles are a good way to implement
-some of the key aspects of Open Science. Therefore, to understand the
-broader idea behind FAIR principles and why making data FAIR is useful,
-we will first take a closer look at Open Science.
+some of the key aspects of Open Science. To understand the broader idea
+behind the FAIR principles and why it makes sense to make data FAIR,
+let's first take a closer look at open science.
 
 ## Definition of Open Science
 
@@ -312,12 +311,38 @@ There is no single, unique definition of Open Science. However, looking
 at the various definitions available (Figure 2‑1), we can clearly see
 the relevant aspects.
 
-| Open Science                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| The movement to make scientific research (including publications, data, physical samples, and software) and its dissemination **accessible to all levels of society**, amateur or professional (source: [wikipedia.org](https://en.wikipedia.org/wiki/Open_science))                                                                                                                                                                                                   |
-| Open science encompasses **unhindered access to** scientific articles, access to data from public research, and collaborative research enabled by ICT tools and incentives (source: [OECD](https://www.oecd.org/sti/inno/open-science.htm))                                                                                                                                                                                                                            |
-| The practice of science in such a way that others can **collaborate and contribute**, where research data, lab notes and other research processes are freely available, under terms that enable **re-use, redistribution and reproduction** of the **research and its underlying data and methods** (source: [fosteropenscience.eu](https://www.fosteropenscience.eu/node/2076#:~:text=Open%20Science%20is%20the%20practice,its%20underlying%20data%20and%20methods.)) |
-| Open Science is the movement that aims at **more open and collaborative research practices** in which publications, data, software, and other types of academic output are **shared** at the earliest possible stage and made available for re-use ([NWO](https://www.nwo.nl/en/open-science), NL)                                                                                                                                                                     |
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>The movement to make scientific research (including publications,
+data, physical samples, and software) and its dissemination
+<strong>accessible to all levels of society</strong>, amateur or
+professional (source: <a
+href="https://en.wikipedia.org/wiki/Open_science">wikipedia.org</a>)</p>
+<p>Open science encompasses <strong>unhindered access to</strong>
+scientific articles, access to data from public research, and
+collaborative research enabled by ICT tools and incentives (source: <a
+href="https://www.oecd.org/sti/inno/open-science.htm">OECD</a>)</p>
+<p>The practice of science in such a way that others can
+<strong>collaborate and contribute</strong>, where research data, lab
+notes and other research processes are freely available, under terms
+that enable <strong>reuse, redistribution and reproduction</strong> of
+the <strong>research and its underlying data and methods</strong>
+(source: <a
+href="https://www.fosteropenscience.eu/node/2076#:~:text=Open%20Science%20is%20the%20practice,its%20underlying%20data%20and%20methods.">fosteropenscience.eu</a>)</p>
+<p>Open Science is the movement that aims at <strong>more open and
+collaborative research practices</strong> in which publications, data,
+software, and other types of academic output are <strong>shared</strong>
+at the earliest possible stage and made available for reuse (<a
+href="https://www.nwo.nl/en/open-science">NWO</a>, NL)</p></th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
 
 Figure 2‑1 Four definitions of Open Science
 
@@ -335,7 +360,7 @@ Figure 2‑2 The main pillars of Open Science
 
 Basically, it is about producing understandable results and sharing them
 broadly and as openly as possible. The overall objective is that fellow
-researchers and other stakeholders can re-use the scientific output. The
+researchers and other stakeholders can reuse the scientific output. The
 idea is that this will lead to collaboration and co-development, broader
 contributions to the scientific process, and ultimately to more
 innovations and more value and impact for society.
@@ -389,10 +414,10 @@ research is a big step towards practicing it.
 
 ## Introduction
 
-Data sharing and data re-use are important objectives of Open Science.
+Data sharing and data reuse are important objectives of Open Science.
 Obviously, sharing data is only useful if others can work with that data
-and re-use it in a good and efficient way in their research. There are a
-few aspects then that are relevant with respect to data:
+and reuse it in a good and efficient way in their research. There are a
+number of aspects that are relevant to data:
 
 - To know that the data exists, others should be able to discover it.
 
@@ -401,15 +426,15 @@ few aspects then that are relevant with respect to data:
 
 - Additionally, for others to decide if they can use the data, they
   should also be able to “easily” understand the data, its background,
-  how it was generated, processed etc.
+  how it was generated, processed etc..
 
 - To start working with the data, it is important that it is in a form
   where it can easily be processed and combined with other data, e.g.,
   using analytical tools.
 
 These aspects are the core of the FAIR (**F**indable, **A**ccessible,
-**I**nteroperable, **R**e-usable) principles and FAIR data, and they
-will be further explained in this chapter.
+**I**nteroperable, **R**eusable) principles and FAIR data, and they will
+be further explained in this chapter.
 
 It is good to realize that data can be classified in different
 categories, which plays a role in how that data and the derived data
@@ -421,9 +446,9 @@ want, including transforming, combining, and sharing it with others,
 even for commercial purposes (the Open Data Institute).
 
 **Shared data** - Shared data may be made widely accessible but could
-have some restricting conditions, such as non-commercial re-use or
-re-use with attribution. It is important to note that not all shared
-data has to be available to anyone.
+have some restricting conditions, such as non-commercial reuse or reuse
+with attribution. It is important to note that not all shared data has
+to be available to anyone.
 
 **Closed data** - If researchers are dealing with sensitive data (e.g.,
 personal or commercially data), it may not be possible to share the
@@ -435,11 +460,12 @@ A term that is often used in connection with data sharing is Open Data.
 Open Data is related to FAIR data, but it is not the same (see Figure
 3‑1).
 
-**“Open data is data that anyone can access, use and share”**
+| **“Open data is data that anyone can access, use and share”** |
+|---------------------------------------------------------------|
 
 Figure 3‑1 Definition of Open Data (the Open Data Institute)
 
-The definition of Open Data provided by the Open Data Institute is
+The definition of Open Data provided by the Open Data Institute (ODI )is
 simple and clear. Anyone should be able to get the data, work with it,
 and reshare it with others. Besides, Open Data should have a licence
 attached that says that it is Open Data. An Open Data license might also
@@ -473,18 +499,18 @@ introduction, one might be dealing with shared or even closed data in
 many cases. Even if such scenarios seem to contradict the idea of Open
 Data, the characteristics of Open Data, and in particular the FAIR
 principles, are useful to use to facilitate and allow your own or
-internal organisation’s re-use of the data.
+internal organisation’s reuse of the data.
 
-## FAIR principles and Fair Data sharing
+## FAIR principles and FAIR Data sharing
 
 The FAIR principles stand for: **F**indable, **A**ccessible,
-**I**nteroperable and **R**e-usable.
+**I**nteroperable and **R**eusable.
 
-| Findable      | The data should be discoverable.                                                                                        |
-|---------------|-------------------------------------------------------------------------------------------------------------------------|
-| Accessible    | The data should be available and obtainable (if needed with authentication and authorisation)                           |
-| Interoperable | The data should be parseable and integratable with other data (e.g. for analysis and processing)                        |
-| Re-usable     | The data should be well-described, allowing the most comprehensive re-use possible and the least cumbersome integration |
+| Findable      | The data should be discoverable.                                                                                       |
+|---------------|------------------------------------------------------------------------------------------------------------------------|
+| Accessible    | The data should be available and obtainable (if needed with authentication and authorisation)                          |
+| Interoperable | The data should be parseable and integratable with other data (e.g. for analysis and processing)                       |
+| Reusable      | The data should be well-described, allowing the most comprehensive reuse possible and the least cumbersome integration |
 
 The following sections shortly explain FAIR, why to adopt and how
 integrate these FAIR principles. Many of the terms used will be further
@@ -500,16 +526,16 @@ A lot of research is done worldwide, resulting in a wealth of
 potentially valuable data. Rather than constantly reinventing the wheel
 by generating similar data over and over again, we can make use of the
 work of fellow researchers. This is one of the aims of the FAIR
-principles. When data is made FAIR, re-using it in other research
-becomes much easier. This requires, among other things, that data is
-formatted so it can be easily used with data science tools and that it
-is well documented, so its background and the options for re-use can be
-easily understood. And, of course, the data should be available for
-download online so that it can be easily found and downloaded.
+principles. When data is made FAIR, reusing it in other research becomes
+much easier. This requires, among other things, that data is formatted
+so it can be easily used with data science tools and that it is well
+documented, so its background and the options for reuse can be easily
+understood. And, of course, the data should be available for download
+online so that it can be easily found and downloaded.
 
 It is often overlooked that publishing FAIR data allows you to get
 credit for your work. First, the simple fact that others can more easily
-get and re-use your data will increase the chance that it gets cited.
+get and reuse your data will increase the chance that it gets cited.
 Moreover, connecting a suitable license to your data, requiring
 attribution, ensures your work gets appropriate credits.
 
@@ -524,7 +550,7 @@ the form of a mandatory research data management plan (DMP) (see chapter
 
 Finally, it is becoming a common practice that scientific publishers and
 journals require the underlying data along with the publications. Again,
-one of the reasons is to make it easier to understand and re-use (parts
+one of the reasons is to make it easier to understand and reuse (parts
 of) the published research. But it is also a way to increase the
 transparency and traceability of research, so results can be reproduced
 and verified if needed.
@@ -553,13 +579,13 @@ when the following is implemented.
 ### Making Data Accessible 
 
 In principle, once a dataset has been found by the user, it should be
-available and obtainable (usually meaning downloadable) for re-use. Even
+available and obtainable (usually meaning downloadable) for reuse. Even
 if the access to the dataset itself may be restricted, it is important
 that at least the metadata of the dataset is available. Firstly, the
 existence of the dataset is then documented for all, which increases the
 transparency of research. Secondly, the license information provided as
 part of the metadata could clarify the conditions for obtaining and
-re-using the data. Additionally, the available metadata provides a
+reusing the data. Additionally, the available metadata provides a
 possibility to obtain further information about the dataset or even
 contact the creator directly and possibly circumvent restrictions and
 negotiate access.
@@ -575,11 +601,11 @@ negotiate access.
 ### Making Data Interoperable 
 
 An important aspect of making data FAIR is data interoperability. It
-essentially means that data has to be syntactically parseable[^2] and
-semantically[^3] understandable. This will allow easy data exchange and
-re-use between researchers, institutions, organisations, or countries.
-It also allows that data can be easily automatically processed or
-combined with other data.
+essentially means that data has to be syntactically parseable[^1] and
+semantically[^2] understandable. This will allow easy data exchange and
+reuse between researchers, institutions, organisations, or countries. It
+also allows that data can be easily automatically processed or combined
+with other data.
 
 - Make your data available as structured data in non-proprietary
   formats. As an example: structuring data in an Excel-file is already
@@ -592,12 +618,12 @@ combined with other data.
 - If possible, use common taxonomies or ontologies to tag and describe
   your data.
 
-### Making Data Re-usable 
+### Making Data Reusable 
 
-The final step is making data re-usable. In fact, a lot of this is
+The final step is making data reusable. In fact, a lot of this is
 already accomplished if the data is made Findable, Accessible, and
 Interoperable. These last steps are especially important to clarify for
-re-users how they can or cannot use the data. Many of the potential
+reusers how they can or cannot use the data. Many of the potential
 misinterpretations and misuses of a dataset can be prevented by:
 
 - Describing the dataset further, for example by providing information
@@ -609,17 +635,16 @@ misinterpretations and misuses of a dataset can be prevented by:
   attributes. See also chapters 4, 5 and 6.
 
 - Attaching a license to the data (e.g. through its metadata) so that
-  people know about the restrictions for re-use. The least restrictive
-  license allows for the widest re-use, as licences are not only binding
-  for external users, but also for the data creator’s re-use of the
-  data.
+  people know about the restrictions for reuse. The least restrictive
+  license allows for the widest reuse, as licences are not only binding
+  for external users, but also for the data creator’s reuse of the data.
 
 ## Some myths and misunderstandings around FAIR
 
 In discussions on FAIR data, there can be some confusion on the
 advantages and disadvantages of FAIR data. Researchers tend to see
 several risks and disadvantages associated with publishing FAIR data for
-re-use. Some of the most well-known “myths” and misunderstandings are
+reuse. Some of the most well-known “myths” and misunderstandings are
 discussed here, using some often-heard statements.
 
 ***Statement: “Being FAIR” means that I give up control over my
@@ -642,25 +667,25 @@ its background and the consequences of using it for a specific purpose.
 This risk can be decreased by good data documentation, as described in
 the previous sections. Make sure that it is clear to others why and how
 the data was derived, which choices were made, and how it should (or
-should not) be re-used.
+should not) be reused.
 
 Another good way to ensure that others use your data only as intended is
 to attach a suitable license. A license explains the conditions under
-which data can be re-used. Many standard licenses (e.g. [Creative
+which data can be reused. Many standard licenses (e.g. [Creative
 Commons](https://creativecommons.org/licenses) or [Open Data
 Commons](https://opendatacommons.org/licenses/)) offer good options to
 ensure that you are cited, protect your IPR (Intellectual Property
-Rights) and restrict re-use (e.g. for commercial purposes).
+Rights) and restrict reuse (e.g. for commercial purposes).
 
 ***Statement: “I don’t benefit from data sharing.”***
 
 This is an often-heard misunderstanding about (FAIR) data sharing. As
 already before, it is possible to link a license to a dataset that
-requires that others re-using a dataset provide credit the originator of
-the data (e.g., through a citation or appropriate references). Besides,
-more and more data journals are established that allow data sets to be
-published based on a scientific (peer) review process, with a DOI,
-allowing others to properly cite the dataset.
+requires that others reusing a dataset provide credit to the originator
+of the data (e.g., through a citation or appropriate references).
+Besides, more and more data journals are established that allow data
+sets to be published based on a scientific (peer) review process, with a
+DOI, allowing others to properly cite the dataset.
 
 ## Useful links on FAIR data sharing
 
@@ -690,16 +715,17 @@ links may be consulted:
 In the pig research community, a large variety of pig phenotype data has
 been collected, but there is a lack of standards. Systematic
 documentation of research data is key for making data publishable,
-discoverable, citable, and re-usable. By doing so you comply with the
+discoverable, citable, and reusable. By doing so you comply with the
 FAIR data principles (see chapter 3). This will not only be of great
 benefit to your peers but also to yourself. It will make your research
-more efficient. Think of the ease to find and re-use data, minimizing
-the risk of errors, improving quality and so on. Publishing your
-metadata (including or excluding the research data) will improve the
-visibility of your work and acknowledges the agencies funding your
-research. Finally, it contributes to responsible and transparent animal
-experimentation as the pig community is informed about past and on-going
-research and, if possible, peers can re-use and build on previous work.
+more efficient. Think of the ease to find and reuse data, minimizing the
+risk of errors, improving quality and so on. Publishing your metadata
+(including or excluding the research data) will improve the visibility
+of your work and acknowledges the agencies funding your research.
+Finally, it contributes to responsible and transparent animal
+experimentation as the pig community is informed about the past and
+on-going research and, if possible, peers can reuse and build on
+previous work.
 
 In this section, we first briefly define metadata and introduce
 different levels of metadata: 1) common aspects of the dataset and 2) a
@@ -881,9 +907,10 @@ role="doc-noteref"><sup>4</sup></a></td>
 <td>CC-BY4.0 (<a
 href="https://creativecommons.org/licenses/by/4.0/">link</a>)</td>
 <td><p>Widespread licences are the Creative Commons (About CC Licenses -
-Creative Commons) or the Open Data Commons (Home — Open Data Commons:
-legal tools for open data). Instead of just writing the license, a link
-could also be provided.</p>
+<a href="https://creativecommons.org/licenses/by/4.0/">Creative
+Commons</a>) or the <a href="https://opendatacommons.org/">Open Data
+Commons</a> (Home — Open Data Commons: legal tools for open data).
+Instead of just writing the license, a link could also be provided.</p>
 <p>For more information see chapter 7.</p>
 <p><em>“Information about rights held in and over the
 resource.”</em></p></td>
@@ -1012,7 +1039,8 @@ context.”</em></p></td>
 <td><a
 href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/elements11/publisher/">Publisher</a></td>
 <td>FBN Dummerstorf</td>
-<td><p>An entity is responsible for making the resource available.</p>
+<td><p>The resource is provided by an entity, e.g. publisher or
+institution.</p>
 <p><em>“An entity responsible for making the resource
 available.”</em></p></td>
 </tr>
@@ -1065,12 +1093,14 @@ information may simply be ignored in the mostly automatic further
 processing.
 
 Dublin Core does not provide a specific field for storing funding
-information or grant identifiers. Other metadata schemas like datacite
-or crossref provide specific terms for this purpose. Due to no specific
-assigned field, multiple fields could be used to add grant numbers in DC
-(e.g., identifier, relation, included in description). For instance,
-Zenodo does not provide an extra element for grant numbers. Here, we
-recommend adding this information within the description or relation.
+information or grant identifiers. Other metadata schemas like
+[datacite](https://datacite.org/) or
+[crossref](https://www.crossref.org/) provide specific terms for this
+purpose. Due to no specific assigned field, multiple fields could be
+used to add grant numbers in DC (e.g., identifier, relation, included in
+description). For instance, Zenodo does not provide an extra element for
+grant numbers. Here, we recommend adding this information within the
+description or relation.
 
 ### Example of a dataset published in Zenodo
 
@@ -1090,16 +1120,16 @@ Zenodo repository
 ### Introduction
 
 Publishing common metadata is a good start, but finding, understanding,
-and re-using data will still be difficult. Through the common metadata,
+and reusing data will still be difficult. Through the common metadata,
 you learn about the dataset, its context and offer opportunities to
-re-use (part of) the published dataset. To efficiently find, understand,
-and re-use the data, either by yourself or peers, data must be
-completely clear in terms of definition, units, used
-coding/classification and provenance (i.e., how was the data collected,
-processed, and updated?). If there is any doubt or room for
-interpretation, there is a risk of overlooking data when searching for
-data and the re-use of data may occur in a different or wrong way. See
-also the following link of CESSDA on data management
+reuse (part of) the published dataset. To efficiently find, understand,
+and reuse the data, either by yourself or peers, data must be completely
+clear in terms of definition, units, used coding/classification and
+provenance (i.e., how was the data collected, processed, and updated?).
+If there is any doubt or room for interpretation, there is a risk of
+overlooking data when searching for data and the reuse of data may occur
+in a different or wrong way. See also the following link of CESSDA on
+data management
 ([here](https://dmeg.cessda.eu/Data-Management-Expert-Guide/2.-Organise-Document/Documentation-and-metadata)).
 
 For example, an outsider could question the term “pig pen” (see Figure
@@ -1126,17 +1156,19 @@ Figure 4‑3 Pen definition in Environment Ontology for Livestock (EOL)
 Further standardized terms are desired to improve the interoperability
 of the dataset, to ease the dataset search, and to provide a
 machine-readable documentation of the dataset, which facilitates its
-re-use. This could be achieved by switching from metadata standards to
-more complex formal data standards (e.g., ABCD). In contrast to pure
-metadata files, those standards allow describing the data, its
-structure, and partly its metadata in a standardized and
-machine-readable format (e.g., xml). Metadata information could also be
-included, but the extent highly depends on the chosen data standard and
-could still require an additional metadata file.
+reuse. This could be achieved by switching from a linear metadata
+standard to a more complex metadata standard or a full data standard
+(e.g., ABCD). In contrast to pure metadata files, those standards allow
+describing the data, its structure, and partly its metadata in a
+standardized and machine-readable format (e.g., xml). Metadata
+information could also be included, but the extent highly depends on the
+chosen data standard and could still require an additional metadata
+file.
 
 The main advantage of formal data standards (e.g., “Access to Biological
-Collections Data”; ABCD) is the more detailed description of some
-metadata or structural information, including:
+Collection Data”; [ABCD](https://doi.org/10.1080/11263504.2012.740085))
+is the more detailed description of some metadata or structural
+information, including:
 
 - Specification of data types (e.g., in the case of several different
   types, such as observations, interviews, images, questionnaires, in a
@@ -1187,23 +1219,22 @@ formal standardized way, including:
   example by git, and point out missing or incorrect values or where
   data were anonymised or modified
 
-### Short insight into the ABCD standard (“Access to Biological Collections Data”)
+### Short insight into the ABCD standard (“Access to Biological Collection Data”)
 
-Within the
-[biology](https://www.dcc.ac.uk/resources/subject-areas/biology) domain,
-the Access to Biological Collections Data
-([ABCD](http://www.tdwg.org/standards/115)) Schema[^4] is one of the
-available standards. The standard was developed between 2001 and 2006
-with the aim to harmonise the exchange of biological collection data
-using the XML format. In contrast to DC, ABCD provides an enormous
-number of additional terms. Due to its hierarchical structure (see
-Figure 4‑4), it is highly flexible.
+In the natural sciences domain, the Access to Biological Collections
+Data ([ABCD](http://www.tdwg.org/standards/115)) Schema[^3]<sup>,</sup>
+[^4] is one of the available standards. The standard was developed
+between 2001 and 2006 with the aim to harmonise the exchange of
+biological collection data using the XML format. In contrast to DC, ABCD
+provides an enormous number of additional terms. Due to its hierarchical
+structure (see Figure 4‑4), it is highly flexible.
 
 <img src="./media/image7.png"
 style="width:2.17391in;height:2.11881in" />
 
 Figure 4‑4 A small sub-set of the ABCD schema, which is required to be
-assigned for a valid ABCD file.
+assigned for a valid ABCD file (copied from
+https://wiki.bgbm.org/bps/index.php/Main_Page).
 
 ABCD’s origin in the biodiversity community lead to the specification
 of, for example, botanical terms included in this standard. Such
@@ -1213,16 +1244,16 @@ application, they do not arise for use in pig research and can be
 omitted. The remaining terms are mostly kept generic so that they can be
 adapted for different fields of application.
 
-To simplify the use of ABCD, the BioCase (Biological Collection Access
-Service for Europe) Provider Software exists, even though its
-application for pig research is currently under review. Additionally,
-ABCD is compatible with other existing standards, such as DC or
-DarwinCore, and is used as interface for the GBIF repository (see
-chapter 7). Besides the BioCase software, we are also testing the
-usability of ABCD, and the resulting recommendations are work in
-progress. To give you a first overview, the example structure is shown
-in Figure 4‑4 while in Figure 4‑5 for this structure an ABCD-xml file is
-illustrated.
+To simplify the use of ABCD, the [BioCase](https://www.biocase.org/)
+(Biological Collection Access Service for Europe) Provider Software
+exists, even though its application for pig research is currently under
+review. Additionally, ABCD is compatible with other existing standards,
+such as DC or DarwinCore, and is used as interface for the GBIF
+repository (see chapter 7). Besides the BioCase software, we are also
+testing the usability of ABCD, and the resulting recommendations are
+work in progress. To give you a first overview, the example structure is
+shown in Figure 4‑4 while in Figure 4‑5 for this structure an ABCD-xml
+file is illustrated.
 
 <img src="./media/image8.png" style="width:2.96199in;height:3.2911in" />
 
@@ -1521,7 +1552,8 @@ correcting data takes time but it is well worth the effort as it greatly
 increases the efficiency and proper use in later stages of a project.
 Research organizations, especially the larger ones, may have specialized
 staff (e.g., data stewards) and an infrastructure to organize and manage
-data during the different stages of the data life cycle (Figure 6‑1).
+data during the different stages of the data life cycle e.g., electronic
+lab notebooks (Figure 6‑1).
 
 <img src="./media/image24.png"
 style="width:3.45327in;height:3.33564in" />
@@ -1760,9 +1792,8 @@ piglets from a litter have the same mother and father (see Figure 6‑7).
 How this can be revealed? In this case, we created two new variables.
 The first variable combines the information “Mother-Litter_No” and the
 second variable combines the information “Mother-Litter_No-Father”.
-Then, we compare the number of the unique entries of the new variable 1
-against the unique entries of the new variable 2. If the number does not
-match, we can check where the discrepancies occur.
+Then, we compare the number of the unique entries of both variables. If
+the number does not match, we can check where the discrepancies occur.
 
 <img src="./media/image30.png"
 style="width:6.36458in;height:1.08728in" />
@@ -1813,7 +1844,7 @@ In simple projects, versioning can be done via filenames and associated
 version control table (see Figure 6‑9).
 
 <img src="./media/image32.png"
-style="width:5.18517in;height:2.54578in" />
+style="width:4.40161in;height:2.16107in" />
 
 Figure 6‑9 Version control via filenames and version control table
 
@@ -1856,9 +1887,10 @@ Partial information (e.g., only metadata) or full access to data can be
 granted. The access can be publicized, and it is possible to provide
 information to potential users in very different ways. The physical
 location of data can be internal or external using either private cloud
-or ins. In general, to be published, datasets are typically deposited in
-a repository to make them available, documented to support reproduction
-and re-use, and assigned an identifier to facilitate citation.
+or institutional cloud. In general, to be published, datasets are
+typically deposited in a repository to make them available, documented
+to support reproduction and reuse, and assigned an identifier to
+facilitate citation.
 
 <img src="./media/image33.png"
 style="width:4.25346in;height:4.2272in" />
@@ -1875,7 +1907,7 @@ They are several ways to publish datasets with documentation. A basic
 approach is to integrate data in a published article. In that case, all
 information on the data is provided in the article. However, the data
 will still be difficult to find independently of the article and in a
-format with little or no re-usability. Providing data as supplementary
+format with little or no reusability. Providing data as supplementary
 material to an article offers easy access to data with fewer size or
 format constraints, but data are still difficult to find.
 
@@ -1887,7 +1919,7 @@ necessary, and can be organised in collections. They can be accessed
 through an article or directly harvested through repository search
 engines. Metadata is varying informative depending on the repository. If
 datasets are not associated with an article, extra documentation must be
-provided to ensure easy data re-use. Repositories dedicated to specific
+provided to ensure easy data reuse. Repositories dedicated to specific
 communities should be the first choice when they exist, because
 dissemination towards the specific community is more efficient.
 
@@ -1929,7 +1961,7 @@ in a data warehouse. Some journals and data repositories use a CC0
 license by default (i.e., without attribution). Other journals and data
 repositories accept a delay (embargo) before releasing the data, use
 licenses that exclude commercial use of the data or generally restrict
-its re-use.
+its reuse.
 
 ## Choosing a repository
 
@@ -1947,7 +1979,7 @@ citation. Finally, the repository can provide tools to manage data
 access rights. In that case, licences define the terms of use when
 releasing data into the public domain (with or without an embargo). It
 is possible to use existing licenses (e.g., Creative Common, see Figure
-7‑2) that establish the rules for re-use. In some cases, specific terms
+7‑2) that establish the rules for reuse. In some cases, specific terms
 can also be defined.
 
 <img src="./media/image34.png"
@@ -1967,8 +1999,8 @@ and multidisciplinary data repositories. In that case, it is recommended
 to use well-known repositories (e.g., [Zenodo](https://zenodo.org/),
 [b2share](https://b2share.eudat.eu/),
 [b2find](https://b2find.eudat.eu/)), maintained by known entities to
-guarantee the application of FAIR principles (see als Table 7‑1 for some
-other repositories).
+guarantee the application of FAIR principles (see also Table 7‑1 for
+some other repositories).
 
 Table 7‑1 Overview of some repositories taken from WUR
 https://library.wur.nl/repositoryfinder
@@ -2021,7 +2053,7 @@ and know how you are going to handle the data before you start.
 Therefore, it is useful to document how your data management will be
 implemented in a data management plan (DMP). It will support the
 management of your data by providing a structured plan, pre-planned
-quality control checks, and an overview for data re-use, helping others
+quality control checks, and an overview for data reuse, helping others
 to understand and reproduce what you have done. Due to the growing
 awareness of the importance of data management, many funders now require
 a DMP to be delivered in the early stages of research projects and
@@ -2116,9 +2148,9 @@ same types of data that your research handles.
 Some templates and instructions might explicitly refer to FAIR as a
 guideline to hold on to. In any case, it is useful to consider how you
 will ensure that your data is Findable, Accessible, Interoperable and
-Re-usable, if any conditions impose restrictions and how to deal with
-them. **Error! Reference source not found.** shows which aspects of the
-FAIR principles should somehow come back in a DMP.
+Reusable, if any conditions impose restrictions and how to deal with
+them. *Figure 8‑1* shows which aspects of the FAIR principles should
+somehow come back in a DMP.
 
 <img src="./media/image35.png"
 style="width:6.03478in;height:2.66903in" />
@@ -2155,7 +2187,7 @@ https://wiki.bgbm.org/bps/index.php/Main_Page)*
 As illustrated in Figure A1, the metadata applies to the DataSet and
 provides information for each unit. Considering livestock data, a unit
 could be seen as a single animal or a group of animals, e.g. when they
-are not easily separable, like fish in a tank.
+are not easily separable, like pigs in a group.
 
 ## Core elements for storing experimental data 
 
@@ -2169,10 +2201,10 @@ MeasurementOrFact.
 
 <table>
 <colgroup>
-<col style="width: 29%" />
-<col style="width: 34%" />
-<col style="width: 16%" />
 <col style="width: 19%" />
+<col style="width: 20%" />
+<col style="width: 32%" />
+<col style="width: 27%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -2252,8 +2284,7 @@ reference.</td>
 </tr>
 <tr class="odd">
 <td>MeasurementOrFactReference/ URI</td>
-<td><a
-href="http://opendata.inrae.fr/ATOL/page/ATOL_0000407">URI</a></td>
+<td>http://opendata.inrae.fr/ATOL/page/ATOL_0000407</td>
 <td>URI to Reference. This can be a known methodology or an
 institutional intern Standard Operating Procedure (SOP). Beside the ATOL
 ontologies also Livestock product trait ontology (<a
@@ -2287,19 +2318,23 @@ There are two mutually exclusive elements for the time measurement in
 the MeasurementOrFact. Either the duration (Duration) or the concrete
 date and time (MeasurementDateTime) for the measurement is described.
 
-[^1]: <https://www.pigweb.eu/deliverablesmilestones>.
-
-[^2]: Syntactic interoperability defines the way in which data services
+[^1]: Syntactic interoperability defines the way in which data services
     will be invoked (is also related to schematic interoperability which
     defines the structure (application schema, data model) in which the
     data will be offered by a service e.g., GML, JSON etc.
 
-[^3]: Semantic interoperability ensures that the content of the schema
+[^2]: Semantic interoperability ensures that the content of the schema
     (the data itself) can be understood by humans or machines.
 
-[^4]: Access to Biological Collections Data Task Group. 2005. Access to
+[^3]: Access to Biological Collections Data Task Group. 2005. Access to
     Biological Collection Data (ABCD). Biodiversity Information
     Standards (TDWG) <http://www.tdwg.org/standards/115>.
+
+[^4]: Holetschek J., Dröge G., Güntsch A. & Berendsohn W.G. 2012: The
+    ABCD of primary biodiversity data access. Plant Biosystems - An
+    International Journal Dealing with all Aspects of Plant Biology:
+    Official Journal of the Societa Botanica Italiana, 146:4, 771-779,
+    DOI:10.1080/11263504.2012.740085 (2012).
 
 [^5]: https://en.wikipedia.org/wiki/Relational_model
 
