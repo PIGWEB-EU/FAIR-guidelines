@@ -916,7 +916,7 @@ resource.”</em></p></td>
 </tr>
 </tbody>
 </table>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
@@ -938,7 +938,7 @@ be extended by more elements (e.g. referenced by, license,
 references).<a href="#fnref4" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 ### Recommended elements of DC
 
@@ -1058,7 +1058,7 @@ derived.”</em></p></td>
 </tr>
 </tbody>
 </table>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
@@ -1071,7 +1071,7 @@ href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes<a
 href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 ### Restrictions and limitations of DC 
 
