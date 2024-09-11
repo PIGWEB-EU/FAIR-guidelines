@@ -14,26 +14,24 @@ Kasper<sup>5</sup> and Danny de Koning<sup>6</sup>
 >
 > 2\) PEGASE, INRAE, Institut Agro, 35590, Saint-Gilles, France
 >
-> 3\) GenPhySE, Université de Toulouse, INRAE, 31326, Castanet-Tolosan,
-> France
+> 3\) Université de Toulouse, INRAE, ENVT, GenPhySE, 31320
+> Castanet-Tolosan, France
 >
-> 4\) Research Institute for Farm Animal Biology (FBN), Dummerstorf,
-> Germany
+> 4\) Research Institute for Farm Animal Biology (FBN),
+> Wilhelm-Stahl-Allee 2, 18196 Dummerstorf, Germany
 >
 > 5\) Animal GenoPhenomics, Agroscope, Tioleyre 4, 1725 Posieux,
 > Switzerland
 >
 > 6\) Wageningen University & Research, Wageningen, Netherlands
 
-The FAIR data guidelines for pig research were developed within the
+*The FAIR data guidelines for pig research were developed within the
 PIGWEB project which received funding from the European Union’s Horizon
 2020 research and innovation programme under grant agreement No
 101004770. The work was also supported by the German Research Foundation
 DFG under the grant agreement number 442032008 (NFDI4Biodiversity).
-NFDI4Biodiversity is part of
-
-NFDI, the National Research Data Infrastructure in Germany
-(www.nfdi.de).
+NFDI4Biodiversity is part of NFDI, the National Research Data
+Infrastructure in Germany (www.nfdi.de).*
 
 # Contents
 
@@ -2018,8 +2016,7 @@ to use well-known repositories (e.g., [Zenodo](https://zenodo.org/),
 guarantee the application of FAIR principles (see also Table 7‑1 for
 some other repositories).
 
-Table 7‑1 Overview of some repositories taken from WUR
-https://library.wur.nl/repositoryfinder
+Table 7‑1 Overview of some repositories taken from WUR repository finder
 
 | Repository                                                                                                             | Discipline                                   | Associated journal(s) or publisher(s)                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
