@@ -2,22 +2,38 @@
 
 **FAIR data guidelines for pig research**
 
-**Deliverable 3.3**
+3 September 2024
 
-|                                                                                           |
-|-------------------------------------------------------------------------------------------|
-| Start date of the project: March 1<sup>st</sup>, 2021                                     |
-| Duration: 60 months                                                                       |
-| Deliverable Title: FAIR data guidelines for pig research                                  |
-| Deliverable Number: D3.3                                                                  |
-| Deliverable Lead: Rob Lokers                                                              |
-| Related Work package: WP3                                                                 |
-| Author(s): Rob Lokers, Hendrik Boogaard, Catherine Hurtaud, Nina Melzer, Catherine Larzul |
-| Contributor(s): Claudia Kasper, Sarah Fischer                                             |
-| Communication level: PU                                                                   |
-| Due date: M24                                                                             |
-| Actual submission date: M29                                                               |
-| Revision: V1                                                                              |
+Rob Lokers<sup>1</sup>, Hendrik Boogaard<sup>1</sup>, Catherine Hurtaud
+(INRAE)<sup>2</sup>, Catherine Larzul (INRAE)<sup>3</sup>, Nina
+Melzer<sup>4</sup>, Sarah Fischer<sup>4</sup>, Claudia
+Kasper<sup>5</sup> and Danny de Koning<sup>6</sup>
+
+> 1\) Wageningen Environmental Research (WENR), Wageningen University &
+> Research, Wageningen, Netherlands
+>
+> 2\) PEGASE, INRAE, Institut Agro, 35590, Saint-Gilles, France
+>
+> 3\) GenPhySE, Université de Toulouse, INRAE, 31326, Castanet-Tolosan,
+> France
+>
+> 4\) Research Institute for Farm Animal Biology (FBN), Dummerstorf,
+> Germany
+>
+> 5\) Animal GenoPhenomics, Agroscope, Tioleyre 4, 1725 Posieux,
+> Switzerland
+>
+> 6\) Wageningen University & Research, Wageningen, Netherlands
+
+The FAIR data guidelines for pig research were developed within the
+PIGWEB project which received funding from the European Union’s Horizon
+2020 research and innovation programme under grant agreement No
+101004770. The work was also supported by the German Research Foundation
+DFG under the grant agreement number 442032008 (NFDI4Biodiversity).
+NFDI4Biodiversity is part of
+
+NFDI, the National Research Data Infrastructure in Germany
+(www.nfdi.de).
 
 # Contents
 
@@ -406,7 +422,8 @@ research is a big step towards practicing it.
 
 ## Useful links on Open Science
 
-- Foster Open Science ([here](https://www.fosteropenscience.eu))
+- Foster Open Science
+  ([here](https://openscience.eu/foster-open-science))
 
 - Wikipedia ([here](https://en.wikipedia.org/wiki/Open_science))
 
@@ -708,7 +725,7 @@ links may be consulted:
 - Open Data ([here](https://www.theodi.org/article/what-is-open-data))
 
 - European Open Science Cloud – EOSC portal
-  ([here](https://eosc-portal.eu))
+  ([here](https://open-science-cloud.ec.europa.eu))
 
 #  Metadata and data standardization
 
@@ -916,7 +933,7 @@ resource.”</em></p></td>
 </tr>
 </tbody>
 </table>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
@@ -938,7 +955,7 @@ be extended by more elements (e.g. referenced by, license,
 references).<a href="#fnref4" class="footnote-back"
 role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 ### Recommended elements of DC
 
@@ -1058,7 +1075,7 @@ derived.”</em></p></td>
 </tr>
 </tbody>
 </table>
-<aside id="footnotes" class="footnotes footnotes-end-of-document"
+<section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
 <ol>
@@ -1071,7 +1088,7 @@ href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes<a
 href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</aside>
+</section>
 
 ### Restrictions and limitations of DC 
 
@@ -2283,8 +2300,7 @@ reference.</td>
 </tr>
 <tr class="odd">
 <td>MeasurementOrFactReference/ URI</td>
-<td><a
-href="https://www.umrh.inrae.fr/ontologies/visualisation/public/atol/show?idAtol=ATOL_0000407">URI</a></td>
+<td>https://www.umrh.inrae.fr/ontologies/visualisation/public/atol/show?idAtol=ATOL_0000407</td>
 <td>URI to Reference. This can be a known methodology or an
 institutional intern Standard Operating Procedure (SOP). Beside the ATOL
 ontologies also Livestock product trait ontology (<a
